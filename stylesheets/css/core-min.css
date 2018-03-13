@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fplanetgallery.global.ssl.fastly.net%2Fweb%2Fmozambique-20170103-web.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: roboto; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.logo {
+  height: 200px;
+  width: 200px;
+  background-image: url("imgs/Earthicon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 20px;
+  margin-top: 50px; }
+
+.navigation {
+  width: 80vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around; }
+  .navigation ul {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2px;
+    height: 100px;
+    display: flex;
+    align-items: center; }
+    .navigation ul li {
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      font-size: 34px;
+      margin: 1vw;
+      color: white; }
+
+.signUp {
+  height: 200px;
+  width: 200px;
+  background-image: url("imgs/signUpIcon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 50px;
+  right: 30px; }
